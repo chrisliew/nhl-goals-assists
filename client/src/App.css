@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  border: 1px solid black;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  margin-top: 100px;
+  background: lightgrey;
+}
+
+
+table {
+  display: inline-block;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+button {
+  margin: 1em;
+  margin-bottom: 3em;
+	-moz-box-shadow:inset 0px 34px 0px -15px #b54b3a;
+	-webkit-box-shadow:inset 0px 34px 0px -15px #b54b3a;
+	box-shadow:inset 0px 34px 0px -15px #b54b3a;
+	background-color:#a73f2d;
+	border:1px solid #241d13;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 17px;
+	text-decoration:none;
+  text-shadow:0px -1px 0px #7a2a1d;
+  width: 8em;
+}
+button:hover {
+	background-color:#b34332;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
